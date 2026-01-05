@@ -4,6 +4,10 @@ import Discover from './components/Discover'
 import heroimage from './images/Hero_image.png'
 import mount from './images/mount.png'
 import './index.css'
+import Footer from './components/Footer'
+import Connectus from './components/Connectus'
+import Mapp from './components/Mapp'
+import Stone from './components/Stone'
 
 const App = () => {
   return (
@@ -49,6 +53,15 @@ const App = () => {
             <img src={mount} alt="Mountain" />
 
             <Discover />
+
+            <Mapp/>
+            <Stone/>
+            <Connectus/>
+            
+
+
+
+            <Footer/>
           </div>
         </div>
       </div>
