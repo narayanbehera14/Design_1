@@ -8,14 +8,22 @@ import Footer from './components/Footer'
 import Connectus from './components/Connectus'
 import Mapp from './components/Mapp'
 import Stone from './components/Stone'
+import Carousel from './components/Carousel'
 
 const App = () => {
   return (
     <div>
       <Navbar />
 
-      <h1>Browse everything.</h1>
+      {/* <a href='#discover'>Discover</a>
+      <a href='#map'>Map</a>
+      <a href='#stone'>Stone</a> */}
+
+      <h1 id = "home">Browse everything.</h1>
       <img src={heroimage} alt="Hero_img" />
+      <div>
+        <Carousel/>
+      </div>
 
       <div>
         <p>Trusted by</p>
@@ -52,15 +60,25 @@ const App = () => {
 
             <img src={mount} alt="Mountain" />
 
+            <div id='discover'>
+
             <Discover />
+            </div>
+
+            <div id='map'>
 
             <Mapp/>
+            </div>
+
+            <div id='stone'>
             <Stone/>
+            </div>
+
+
+            <div id='contact'>
             <Connectus/>
+            </div>
             
-
-
-
             <Footer/>
           </div>
         </div>

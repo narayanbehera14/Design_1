@@ -5,13 +5,13 @@ const Navbar = () => {
     <div>
       <nav>
         <h1>Area</h1>
-        <a href=''>Benefits</a>
-        <a href=''>Specification</a>
-        <a href=''>How-to</a>
-        <a href=''>Contact us</a>
+        <a href='#discover'>Benefits</a>
+        <a href='#map'>Specification</a>
+        <a href='#stone'>How-to</a>
+      <a href='#contact'>Contact Us</a>
       </nav>
     </div>
   )
 }
 
-export default Navbar
+export default Navbar 
