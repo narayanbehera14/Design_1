@@ -3,33 +3,28 @@ import discover from '../images/discover.png'
 
 const Discover = () => {
   return (
-    <div>
-      <p>See the Big Picture</p>
-      <div>
-        Area turns your data into clear, vibrant that show you exactly
-        what's happening in each region.
-        <div>
-            <p>
-                01 Spot Trends in Seconds: No more digging through numbers.
-            </p>
-            <p>
-                02 Get Everyone on the same page : share easy-to-understand report with your team.
-            </p>
-            <p>
-                03 Make Presentation Pop: Interactive maps and dashboards keep your audience engaged.
-            </p>
-            <p>
-                04 Your Global Snapshot: Get a quick clear overview of your entire operation.
-            </p>
+    <section className="discover">
+      <div className="discover-left">
+        <h2>See the Big Picture</h2>
+        <p className="discover-desc">
+          Area turns your data into clear, vibrant visuals that show you exactly
+          what's happening in each region.
+        </p>
 
-            <h1>Discover More</h1>
+        <ul className="discover-list">
+          <li><span>01</span> Spot Trends in Seconds: No more digging through numbers.</li>
+          <li><span>02</span> Get Everyone on the Same Page: Share easy-to-understand reports.</li>
+          <li><span>03</span> Make Presentations Pop: Interactive maps and dashboards.</li>
+          <li><span>04</span> Your Global Snapshot: Clear overview of your entire operation.</li>
+        </ul>
 
-            <div>
-                <img src={discover} alt="discover"/>
-            </div>
-        </div>
+        <button className="discover-btn">Discover More</button>
       </div>
-    </div>
+
+      <div className="discover-right">
+        <img src={discover} alt="discover" />
+      </div>
+    </section>
   )
 }
 
