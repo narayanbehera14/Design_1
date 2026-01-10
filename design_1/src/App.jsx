@@ -27,7 +27,7 @@ const App = () => {
       {/* BENEFITS */}
       <div id="benefits">
         <p>Benefits</p>
-        <p>We’ve cracked the code.</p>
+        <p>We've cracked the code.</p>
         <p>Area provides real insight without the data overload.</p>
 
         <div className="benefits-grid">

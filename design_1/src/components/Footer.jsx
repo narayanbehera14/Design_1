@@ -2,13 +2,18 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div>
-      <p>Benefits</p>
-      <p>Specification</p>
-      <p>How-to</p>
-      <h1>@Area. 2026</h1>
-      <h2>All Rights Reserved</h2>
-    </div>
+    <footer className="footer">
+      <div className="footer-top">
+          <a href='#discover'>Benefits</a>
+        <a href='#map'>Specification</a>
+        <a href='#stone'>How-to</a>
+      </div>
+
+      <div className="footer-bottom">
+        <span>© Area. 2025</span>
+        <span>All Rights Reserved</span>
+      </div>
+    </footer>
   )
 }
 

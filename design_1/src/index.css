@@ -120,29 +120,38 @@ p {
 
 /* top label */
 #benefits > p:first-child {
-  font-size: 12px;
+  font-size: 20px;
+  text-align: left;
+
   letter-spacing: 1px;
-  color: #666;
+  color: #100a0a;
   margin-bottom: 16px;
 }
 
 /* main heading */
 #benefits > p:nth-child(2) {
   font-size: 64px;
+    text-align: left;
   font-weight: 500;
   margin-bottom: 24px;
+  color: rgba(8, 0, 15, 0.767);
 }
 
 /* subtitle */
+
 #benefits > p:nth-child(3) {
+  
   font-size: 16px;
-  color: #666;
+    text-align: left;
+  color: #9a7b18;
   max-width: 500px;
   margin-bottom: 80px;
 }
 
 /* cards container */
 .benefits-grid {
+    border-top: 1px solid #eee;
+
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 40px;
@@ -159,7 +168,7 @@ p {
 /* card description */
 .benefits-grid p:nth-child(even) {
   font-size: 14px;
-  color: #666;
+  color: #0e0a0a;
   line-height: 1.6;
 }
 
@@ -360,4 +369,109 @@ p {
 .stone-role {
   color: #7a9b3a;
   font-size: 14px;
+}
+.mapp {
+  padding: 80px 100px;
+  background: #fafaf7;
+  font-family: Georgia, serif;
+}
+
+.mapp h1 {
+  font-size: 48px;
+  margin-bottom: 60px;
+}
+
+.steps {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 80px;
+  margin-bottom: 80px;
+}
+
+.step h2 {
+  font-size: 64px;
+  color: #9a9a9a;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.step h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.step p {
+  font-size: 14px;
+  color: #777;
+  line-height: 1.6;
+}
+
+.mapp img {
+  width: 100%;
+  height: 420px;
+  object-fit: cover;
+  border-radius: 24px;
+}
+
+.connect {
+  padding: 120px 20px;
+  text-align: center;
+  background: #ffffff;
+  font-family: Georgia, serif;
+}
+
+.connect h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.connect p {
+  font-size: 15px;
+  color: #7a7a7a;
+  max-width: 520px;
+  margin: 0 auto 40px;
+  line-height: 1.6;
+}
+
+.connect-btn {
+  background: #4b5f12;
+  color: white;
+  border: none;
+  padding: 14px 48px;
+  border-radius: 30px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.connect-btn:hover {
+  opacity: 0.9;
+}
+
+.footer {
+  padding: 40px 80px;
+  background: #ffffff;
+  font-family: Georgia, serif;
+}
+
+.footer-top {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+.footer-top a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #000;
+}
+
+.footer-top a:hover {
+  text-decoration: underline;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  color: #6b7d32;
 }

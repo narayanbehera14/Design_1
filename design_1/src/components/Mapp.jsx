@@ -3,24 +3,30 @@ import Map from '../images/Map.png'
 
 const Mapp = () => {
   return (
-    <div>
+    <div className="mapp">
       <h1>Map Your Success</h1>
 
-      <p>01</p>
-      <p>Get Staretd</p>
-      <p>with our intuitive setup,you're up and running in minutes.</p>
-      
-      <h2>02</h2>
-      <p>Customized and Configure</p>
-      <p>Adapt Area to your specific requirement and preferences.</p>
-       
-      <p>03</p>
-      <p>Grow Your Business</p>
-      
-      <p>Make informed decisions to exceed your goals.</p>
-     
-      <img src={Map} alt='mapp'/>
-    
+      <div className="steps">
+        <div className="step">
+          <h2>01</h2>
+          <h3>Get Started</h3>
+          <p>With our intuitive setup, you're up and running in minutes.</p>
+        </div>
+
+        <div className="step">
+          <h2>02</h2>
+          <h3>Customize and Configure</h3>
+          <p>Adapt Area to your specific requirements and preferences.</p>
+        </div>
+
+        <div className="step">
+          <h2>03</h2>
+          <h3>Grow Your Business</h3>
+          <p>Make informed decisions to exceed your goals.</p>
+        </div>
+      </div>
+
+      <img src={Map} alt="map" />
     </div>
   )
 }
